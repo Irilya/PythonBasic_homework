@@ -11,10 +11,10 @@ def text_codding(text):
 
 
     for i in range(len(original_text_code)):
-        for j in range(len(alf_list)):
-            if original_text_code[i] == alf_list[j]:
-                original_text_code[i] = alf_list[(j + code_shift) % 33]
-                break
+        if original_text_code[i] in alf_list:
+            j = alf_list.index(original_text_code[i])
+            original_text_code[i] = alf_list[(j + code_shift) % 33]
+
 
 
 text_codding(original_text)
