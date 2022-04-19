@@ -24,4 +24,18 @@ store = {
     ],
 }
 
-# TODO здесь писать код
+print(f'Результат работы программы: ')
+
+
+for key_good in goods.keys():
+    price_values = store.get(goods.get(key_good, {}))
+    total_quantity = 0
+    total_price = 0
+    for j_key in price_values:
+        quantity_value = j_key['quantity']
+        total_quantity += int(quantity_value)
+        price_value = j_key['price']
+        total_price += quantity_value * price_value
+    print(f'\n{key_good} - {total_quantity} штук, стоимость {total_price} рубля')
+
+
