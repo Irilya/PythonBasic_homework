@@ -4,4 +4,7 @@ players = {
     ("Rob", "Bobbin"): (12, 8, 2)
 }
 
-# TODO здесь писать код
+
+players_list = [(i_name + i_vol) for i_name, i_vol in players.items()]
+
+print(f'Результат работы программы: \n{players_list}')
