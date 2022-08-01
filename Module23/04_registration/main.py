@@ -46,5 +46,3 @@ def check_registration_info(file):
 
 
 check_registration_info('registrations.txt')
-
-
