@@ -1,6 +1,6 @@
 import random
-
-
+#
+#
 class Warrior:
 
     def __init__(self, helth=100, choice=0):
