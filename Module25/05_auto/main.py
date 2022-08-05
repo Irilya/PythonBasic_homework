@@ -148,4 +148,3 @@ print(avtobus)
 avtobus.moving(1.2, 3)
 avtobus.go_out(3)
 print(avtobus)
-

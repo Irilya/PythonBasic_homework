@@ -219,4 +219,3 @@ print(f'{manager_1}\n{manager_2}\n{manager_3}\n{agent_1}\n{agent_2}\n{agent_3}\n
 print('Заработная плата:')
 for item in employee_list:
     print(item.calculation_salary())
-

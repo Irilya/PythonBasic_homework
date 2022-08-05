@@ -18,4 +18,3 @@ print(dic)
 
 print(dic.get('2'))
 print(dic.get(1))
-

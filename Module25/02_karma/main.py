@@ -81,4 +81,3 @@ def one_day():
 
 
 one_day()
-

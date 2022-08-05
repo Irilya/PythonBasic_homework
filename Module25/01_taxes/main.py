@@ -160,4 +160,3 @@ def cash_level(tax):
 
 my_tax = tax_calculation()
 cash_level(my_tax)
-

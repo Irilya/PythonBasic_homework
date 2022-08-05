@@ -478,4 +478,3 @@ while day_count < 365:
 
 
 print(f'\nЗа {day} дней:\nзаработано денег {earned_money}, \nсъедено еды {eaten_food}, \nкуплено шуб: {fur_coat}')
-
